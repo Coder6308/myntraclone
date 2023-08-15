@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.logo img{
+   width: 15.5%;
+   padding: 0 58px;
+   display: flex;
+   align-items: center;
+}
+nav{
+display: flex;
+align-items: center;
+height: 12vh;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+/* margin-right: 700px; */
+position: relative;
+right: 282px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 15px;
+    font-size: 0.75rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+}
+.search{
+padding: 13px;
+width: 24vw;
+position: relative;
+right: 155px;
+background-color: rgba(177, 169, 169, 0.116);
+border: none;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+
+}
+section{
+    background-color: rgba(177, 169, 169, 0.116);
+    height: 122vh;
+}
+#icon-1{
+    position: relative;
+    right: 155px;
+    /* border: 1px solid ; */
+    padding: 13px;
+    background-color:rgba(177, 169, 169, 0.116) ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#icon-2{
+    font-size: 1.25rem;
+    position: relative;
+    right: 130px;
+}
+#icon-3{
+    font-size: 1.25rem;
+    position: relative;
+    right: 100px;
+}
+#icon-4{
+    font-size: 1.25rem;
+    position: relative;
+    right: 70px;
+}
+.homeImg{
+    max-width: 98.7vw;
+}
+.itemImg{
+    margin: 43px 0 ;
+   width: 16.5rem;
+}
